@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topo {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #604829;
+}
+.topo div {
+  margin: auto 50px;
+  text-align: center;
+}
+.topo div img {
+  width: 65px;
+}
+.topo div a {
+  padding: 0 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.ajuste-topo {
+  height: 60px;
+}
+.secao-banner, .secao-image-1, .secao-image-2, .secao-contato, .secao-horario {  
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.secao-banner {
+  background-image: url('./assets/parallax-imagem1.png');
+}
+.secao-image-1 {
+  background-image: url('./assets/parallax-imagem2.jpg');
+}
+.secao-image-2 {
+  background-image: url('./assets/parallax-imagem3.jpg');
+}
+.secao-contato {
+  background-image: url('./assets/parallax-imagem4.png');
+}
+.secao-horario {
+  background-image: url('./assets/cafeteria.jpg');
+}
+.secao-banner h1, .secao-horario h2 {
+  font-family: 'Fraunces';
+  font-weight: 300;
+  font-size: 55px;
+  color: #FFF;
+}
+.topo div a, .secao-text h2 {
+  font-family: 'Oswald';
+  color: #c4a47c;
+  text-align: center;
+}
+.secao-banner, .secao-image-1, .secao-image-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #604829;
+}
+.secao-image-1 h3, .secao-image-2 h3 {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-size: 19px;
+  color: #FFF;
+  background-color: #604829;
+  padding: 5px 20px;
+}
+.secao-text, .secao-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.secao-contato h2, .secao-contato div {
+  font-family: 'Oswald';
+  color: #FFF;
+  background-color: #604829;
+}
+.secao-contato h2 {
+  margin: 60px auto;
+  width: 400px;
+  height: 40px;
+  text-align: center;
+}
+.map iframe {
+  width: 820px;
+  height: 300px;
+}
+.dados {
+  margin: 40px auto;
+  padding: 10px 0;
+  width: 500px;
+}
+.secao-text h2 {
+  margin-top: 60px;
+  font-size: 22px;
+}
+.secao-text div {
+  margin: 20px auto;
+  width: 850px;
+}
+.secao-text p {
+  font-family: 'Lato';
+  font-size: 14px;
+  line-height: 31px;
+  color: #666;
+}
+.secao-horario h2 {
+  padding: 80px 0;
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+}
+.secao-horario ul {
+  list-style-type: none;
+}
+.secao-horario ul li {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.secao-horario ul li h3 {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFF;
+}
+.secao-horario ul li span {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 14px;
+  color: #c4a47c;
+}
+.secao-horario ul li p {
+  font-family: 'Oswald';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFF;
+}
+.secao-horario ul li div {
+  width: 400px;
+  height: 0.5px;
+  background-color: #FFF;
+}
+.rodape {
+  position: relative;
+  height: 100%;
+  background-color: #000000;
+  color: #ACACAC;
+  text-align: center;
+}
+.rodape a {
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #c4a47c;
+}
+.rodape a img {
+  width: 50px;
+  height: 50px;
+}
+.rodape p {  
+  padding: 6px 0;
+}
